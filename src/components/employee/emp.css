@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap");
+
+.emp-title {
+  font-size: 26px;
+  text-align: center;
+}
+.emp-box {
+  padding: 0 1rem;
+}
+.emp-box-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.employee-card {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 1.9rem 0rem;
+  width: 350px;
+  opacity: 1;
+}
+
+.employee-list {
+  list-style: none;
+}
+.employee-list li {
+  font-family: "Khand", sans-serif;
+  font-size: 20px;
+}
+
+.avatar img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  margin-left: 25px;
+  padding-right: 1rem;
+}
+.yearService {
+  background-color: rgb(88, 153, 238);
+  padding: 0 0.8rem;
+  border-radius: 1rem;
+  color: aliceblue;
+  margin-left: 10px;
+}
+.yearServiceDigit {
+  font-family: monospace;
+}
+
+.search-box {
+  background-color: rgb(48, 75, 75);
+  padding: 1rem;
+}
+.search-Input {
+  padding: 1rem 5px;
+  width: 300px;
+  margin-left: 20px;
+  border-radius: 15px;
+  outline: none;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0);
+  transition: all 0.5s ease-in-out;
+}
+.search-Input:hover {
+  border-radius: 1px;
+  border: 1px solid rgb(177, 4, 212);
+}
+@media (min-width: 500px) {
+  .employee-card {
+    width: 480px;
+  }
+  .avatar img {
+    width: 420px;
+    margin-left: 20px;
+  }
+  .emp-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 600px) {
+  .emp-box {
+    margin-left: 30px;
+  }
+  .emp-title {
+    font-size: 26px;
+    text-align: left;
+    padding: 0 0 0 3.5rem;
+  }
+}
