@@ -1,6 +1,6 @@
 <h1 align='center'>Contact Me</h1>
 <h2 align='right'> $\mathbb{\color{white}{Email: }\ }$ $\text{kosmofly@gmail.com}$ &nbsp; &nbsp;</h2>
-
+<img src="https://github.com/DonnyMz/Searchable-React-Employee-List/blob/main/src/components/assets/githubImage.JPG" />
 
 ## Getting Started with Create React App
 
